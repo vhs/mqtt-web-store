@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  smartspacemqttstore:
-    image: smartspacemqttstore
+  mqtt-web-store:
+    image: ${DOCKER_TEMPLATE}
     build:
       context: .
       dockerfile: ./Dockerfile
@@ -11,4 +11,4 @@ services:
     ports:
       - 3000:3000
       - 9229:9229
-    command: ["node", "--inspect=0.0.0.0:9229", "index.js"]
+    command: [ "node", "--inspect=0.0.0.0:9229", "index.js" ]
