@@ -21,7 +21,7 @@
     "@types/koa": "^2.13.4",
     "@types/koa__router": "^8.0.11",
     "async-mqtt": "^2.6.2",
-    "axios": "^0.28.0",
+    "axios": "^1.8.2",
     "convict": "^6.2.4",
     "convict-format-with-validator": "^6.2.0",
     "debug": "^4.3.4",
@@ -42,7 +42,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "jest": "^28.1.1",
-    "tsup": "^6.1.2",
+    "tsup": "^8.3.5",
     "typescript": "^4.7.3"
   },
   "config": {
